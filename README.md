@@ -9,7 +9,7 @@ Type `t ` ingame following what you want to translate.
 
 ### Example:
 
-![example](https://raw.githubusercontent.com/LegendNightt/TranslatorPlugin/main/example.png)
+![example](https://user-images.githubusercontent.com/61398114/96117242-10af6b80-0eea-11eb-8876-2fef198580e2.png)
 
 ## Required python modules
 
