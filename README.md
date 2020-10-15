@@ -5,7 +5,7 @@ Really simple plugin of [MCDReforged](https://github.com/Fallen-Breath/MCDReforg
 More plugins in [MCDReforged-Plugins-Catalogue](https://github.com/MCDReforged-Plugins/PluginCatalogue)
 ## How it works?
 
-Type `t `  ingame following what you want to translate.
+Type`t `ingame following what you want to translate.
 
 ### Example:
 
