@@ -9,7 +9,7 @@ More plugins in [MCDReforged-Plugins-Catalogue](https://github.com/MCDReforged-P
 
 Type `t ` ingame following what you want to translate.
 
-###Example:
+### Example:
 
 ![example](https://raw.githubusercontent.com/LegendNightt/TranslatorPlugin/main/example.png)
 
