@@ -11,7 +11,7 @@ Type `t ` ingame following what you want to translate.
 
 ###Example:
 
-![example](https://raw.githubusercontent.com/LegendNightt/TranslatorPlugin/master/example.png)
+![example](https://raw.githubusercontent.com/LegendNightt/TranslatorPlugin/main/example.png)
 
 ## Required python modules
 
