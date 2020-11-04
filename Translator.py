@@ -8,13 +8,13 @@ translator = Translator()
 
 # Translator
 def translatorA(msg):
-    translation = translator.translate(msg, dest='en')
-    if translation.src == 'en':
+    translation = translator.detect(msg)
+    if translation.lang == 'en':
         spanishtrans = translator.translate(msg, dest='es')
         text = spanishtrans.text
     else:
-        universaltrans = translator.translate(msg, dest='en')
-        text = universaltrans.text
+        englishtrans = translator.translate(msg, dest='en')
+        text = translation.text = englishtrans.text
     return str(text)
 
 
