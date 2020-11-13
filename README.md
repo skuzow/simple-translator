@@ -1,4 +1,4 @@
-# TranslatorPlugin
+# MCDR-Translator
 
 Really simple plugin of [MCDReforged](https://github.com/Fallen-Breath/MCDReforged) for translating text ingame, from all languages to English, and English to Spanish automatically. (Minecraft)
 
