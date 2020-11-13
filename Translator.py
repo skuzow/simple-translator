@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# by LegendNightt
+# Author: LegendNightt
 
 from googletrans import Translator
 
