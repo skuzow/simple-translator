@@ -14,7 +14,7 @@ def translatorA(msg):
         text = spanishtrans.text
     else:
         englishtrans = translator.translate(msg, dest='en')
-        text = translation.text = englishtrans.text
+        text = englishtrans.text
     return str(text)
 
 
