@@ -9,7 +9,7 @@ Type`t `ingame following what you want to translate.
 
 ### Example:
 
-![example](https://user-images.githubusercontent.com/61398114/96117242-10af6b80-0eea-11eb-8876-2fef198580e2.png)
+![example](https://i.imgur.com/L28St7j.png)
 
 ## Required python modules
 
