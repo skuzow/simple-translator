@@ -13,6 +13,6 @@ Type`t `ingame following what you want to translate.
 
 ## Required python modules
 
-- googletrans
+- google_trans_new
 
-To install it you can execute `pip install googletrans`
+To install it you can execute `pip install google_trans_new`

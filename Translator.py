@@ -1,30 +1,31 @@
-# -*- coding: utf-8 -*-
-# Author: LegendNightt
+from google_trans_new import google_translator
+translator = google_translator()
 
-from googletrans import Translator
-
-translator = Translator()
-
+PLUGIN_METADATA = {
+    'id': 'translator',
+    'version': '1.0.0',
+    'name': 'Translator',
+    'description': 'Translates text ingame',
+    'author': [
+        'LegendNightt',
+    ],
+    'link': 'https://github.com/LegendNightt/MCDR-Translator'
+}
 
 # Translator
 def translatorA(msg):
     translation = translator.detect(msg)
-    if translation.lang == 'en':
-        spanishtrans = translator.translate(msg, dest='es')
-        text = spanishtrans.text
+    if translation[0] == 'en':
+        result = translator.translate(msg, lang_tgt='es')
     else:
-        englishtrans = translator.translate(msg, dest='en')
-        text = englishtrans.text
-    return str(text)
-
+        result = translator.translate(msg, lang_tgt='en')
+    return str(result)
 
 # MCDReforged
 def on_info(server, info):
-    if info.is_player == 1 and info.content.startswith('t '):
-        result = translatorA(info.content[2:])
-        server.say('§7[T]<' + info.player + '> §f' + result)
-
+    if info.is_player and info.content.startswith('t '):
+        server.say(f'§7[T]<{info.player}> §f{translatorA(info.content[2:])}')
 
 def on_load(server, old):
-    server.add_help_message('Translator (t )',
-                            'Use t and space and then what you want to translate, EN to ES and ES to EN auto')
+    server.register_help_message('Translator (t )',
+                                 'Use t and space and then what you want to translate, EN to ES and ES to EN auto')
