@@ -24,3 +24,7 @@ To install them execute:
 ```bash
 pip install googletrans==4.0.0rc1 mcdreforged
 ```
+Or download requirements.txt and execute:
+```bash
+pip install -r requirements.txt
+```
