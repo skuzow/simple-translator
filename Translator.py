@@ -3,7 +3,7 @@ from googletrans import Translator
 translator = Translator()
 
 PLUGIN_METADATA = {
-    'id': "translator",
+    "id": "translator",
     "version": "1.1.0",
     "name": "Translator",
     "description": "Translates text ingame",
