@@ -12,7 +12,7 @@ PLUGIN_METADATA = {
     "dependencies": {
        "mcdreforged": ">=2.0.0-alpha.1"
     }
-};
+}
 
 # autoTranslator stuff
 def autoTranslator(msg: str):
