@@ -1,11 +1,15 @@
 # MCDR-Translator
 
-Really simple plugin of [MCDReforged](https://github.com/Fallen-Breath/MCDReforged) for translating text ingame, from all languages to English, and English to Spanish automatically. (Minecraft)
+[![supported python versions](https://img.shields.io/badge/python-3.6%20|%203.7%20|%203.8%20|%203.9%20|%203.10-blue)](https://www.python.org/downloads)
+[![license](https://img.shields.io/github/license/legendnightt/MCDR-Translator.svg)](https://github.com/legendnightt/MCDR-Translator/blob/master/LICENSE)
 
-More plugins in [MCDReforged-Plugins-Catalogue](https://github.com/MCDReforged-Plugins/PluginCatalogue)
+Really simple [MCDReforged](https://github.com/Fallen-Breath/MCDReforged) plugin for translating text ingame, from all languages to English, and English to Spanish automatically.
+
+More plugins in [MCDReforged-Plugins-Catalogue](https://github.com/MCDReforged/PluginCatalogue/blob/catalogue/readme.md).
+
 ## How it works?
 
-Type`t `ingame following what you want to translate.
+Simply type `t what you want to translate`.
 
 ### Example:
 
@@ -13,6 +17,10 @@ Type`t `ingame following what you want to translate.
 
 ## Required python modules
 
-- google_trans_new
+- googletrans==4.0.0rc1
+- mcdreforged
 
-To install it you can execute `pip install google_trans_new`
+To install them execute:
+```bash
+pip install googletrans==4.0.0rc1 mcdreforged
+```
