@@ -8,10 +8,7 @@ PLUGIN_METADATA = {
     "name": "Translator",
     "description": "Translates text ingame",
     "author": "legendnightt",
-    "link": "https://github.com/legendnightt/MCDR-Translator",
-    "dependencies": {
-       "mcdreforged": ">=2.0.0-alpha.1"
-    }
+    "link": "https://github.com/legendnightt/MCDR-Translator"
 }
 
 # autoTranslator stuff
