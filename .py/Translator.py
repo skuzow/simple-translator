@@ -4,7 +4,7 @@ translator = Translator()
 
 PLUGIN_METADATA = {
     "id": "translator",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "name": "Translator",
     "description": "Translates text ingame",
     "author": "legendnightt",
