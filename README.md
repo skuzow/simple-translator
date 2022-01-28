@@ -1,6 +1,7 @@
 # MCDR-Translator
 
 [![license](https://img.shields.io/github/license/legendnightt/MCDR-Translator.svg)](https://github.com/legendnightt/MCDR-Translator/blob/master/LICENSE)
+[![plugin package build status](https://github.com/legendnightt/MCDR-Translator/actions/workflows/package.yml/badge.svg?branch=master)](https://github.com/legendnightt/MCDR-Translator/actions/workflows/package.yml)
 [![supported python versions](https://img.shields.io/badge/python->=%203.6%20-blue)](https://www.python.org/downloads)
 
 Really simple [MCDReforged](https://github.com/Fallen-Breath/MCDReforged) plugin for translating text ingame, from all languages to English, and English to Spanish automatically.
