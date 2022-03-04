@@ -2,13 +2,7 @@ name: build plugin package
 
 on:
   push:
-    branches:
-      - master
-    paths:
-      - .github/workflows/package.yml
-      - translator/
-      - mcdreforged.plugin.json
-      - requirements.txt
+  pull_request:
 
 jobs:
   build:
