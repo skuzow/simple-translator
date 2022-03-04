@@ -1,2 +1,2 @@
-mcdreforged==2.3.2
+mcdreforged
 googletrans==4.0.0rc1
