@@ -1,10 +1,14 @@
 {
-    "id": "translator",
+    "id": "simple_translator",
     "version": "1.2.0",
-    "name": "Translator",
-    "description": "Translates text ingame",
-    "author": "legendnightt",
-    "link": "https://github.com/legendnightt/mcdr-translator",
+    "name": "SimpleTranslator",
+    "description": "In-game translator",
+    "author": "skuzow",
+    "link": "https://github.com/skuzow/simple-translator",
+    "dependencies": {
+          "mcdreforged": ">=2.1.0",
+          "googletrans": "==4.0.0rc1"
+    },
     "resources": [
 		"LICENSE"
 	]
