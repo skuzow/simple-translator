@@ -1,20 +1,13 @@
-name: build plugin package
-
-on:
-  push:
-  pull_request:
+name: package
+on: push
 
 jobs:
   build:
     strategy:
       matrix:
-        # Use these Python versions
-        python: [
-            3.6
-        ]
-        # and run on both Linux and Windows
-        os: [ubuntu-20.04, windows-2022]
-    runs-on: ${{matrix.os}}
+        python: [ 3.6 ]
+        os: [ ubuntu-20.04, windows-2022 ]
+    runs-on: ${{ matrix.os }}
     steps:
     - uses: actions/checkout@v2
     - name: Setup python
