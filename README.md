@@ -35,5 +35,5 @@ Location: `config/simple_translator.json`
 To install them execute:
 
 ```bash
-pip install -r requirements.txt
+  pip install -r requirements.txt
 ```

@@ -6,10 +6,10 @@
     "author": "skuzow",
     "link": "https://github.com/skuzow/simple-translator",
     "dependencies": {
-          "mcdreforged": ">=2.1.0",
-          "googletrans": "==4.0.0rc1"
+        "mcdreforged": ">=2.1.0",
+        "googletrans": "==4.0.0rc1"
     },
     "resources": [
-		"LICENSE"
-	]
+        "LICENSE"
+    ]
 }
