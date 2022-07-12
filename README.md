@@ -10,7 +10,7 @@ More plugins in [MCDReforgedPluginsCatalogue](https://github.com/MCDReforged/Plu
 
 ## 🗿 How it works?
 
-Basically translates from all languages to `global_language`, and `secondary_language` to `global_language`.
+Basically translates from `global_language` to `secondary_language` & all languages to `global_language`.
 
 To use it simply type: `t what you want to translate`
 
