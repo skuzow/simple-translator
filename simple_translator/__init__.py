@@ -24,14 +24,14 @@ def auto_translator(message: str):
 
 def on_user_info(server: ServerInterface, info: Info):
     if info.content.startswith('t '):
-        server.say(f'§7[T]<{info.player}> §f{auto_translator(info.content[2:])}')
+        server.say(f'§7[Translate]<{info.player}> §f{auto_translator(info.content[2:])}')
 
 
 def on_load(server: PluginServerInterface, old):
     global server_inst
     server_inst = server
     load_config(None)
-    prefix = 't translate-text'
+    prefix = '!!t translate-text'
     help_message = f'Use t and space, then what you want to translate, works from {config.global_language} to ' \
                    f'{config.secondary_language} & all languages to {config.global_language}'
     server.register_help_message(prefix, help_message)
